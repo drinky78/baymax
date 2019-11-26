@@ -1,0 +1,4 @@
+keras
+tflearn
+gym
+flake8

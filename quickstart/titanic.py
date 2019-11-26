@@ -4,6 +4,9 @@ import tflearn
 import pandas as pd
 from tflearn.datasets import titanic
 from tflearn.data_utils import load_csv
+import tensorflow as tf;
+
+print(tf.__version__)
 
 filename = 'var/titanic_dataset.csv'
 titanic.download_dataset(filename)
